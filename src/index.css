@@ -26,7 +26,7 @@ code {
 
 .leaflet-popup-content h3 {
   margin: 0 0 8px 0;
-  color: #333;
+  color: #c00023;
   font-size: 1.1rem;
 }
 
@@ -42,4 +42,13 @@ code {
 
 .leaflet-marker-icon:hover {
   transform: scale(1.2);
+}
+
+/* Popup stilleri */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+}
+
+.leaflet-popup-tip-container {
+  filter: hue-rotate(320deg) saturate(200%) brightness(70%);
 }
