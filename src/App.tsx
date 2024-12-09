@@ -62,7 +62,7 @@ const MainHeader = styled.header`
   justify-content: space-between;
   align-items: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     height: 60px;
     padding: 0 0.5rem;
   }
@@ -70,11 +70,11 @@ const MainHeader = styled.header`
 
 const BoraLogo = styled.div`
   img {
-    height: 120px;
+    height: 80px;
     object-fit: contain;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     img {
       height: 50px;
     }
@@ -83,13 +83,13 @@ const BoraLogo = styled.div`
 
 const ShijingLogo = styled.div`
   img {
-    height: 55px;
+    height: 60px;
     object-fit: contain;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     img {
-      height: 20px;
+      height: 40px;
     }
   }
 `;
@@ -101,8 +101,8 @@ const HeaderTitle = styled.h1`
   margin: 0;
   text-align: center;
 
-  @media (max-width: 768px) {
-    font-size: 1.2rem;
+  @media (max-width: 1000px) {
+    font-size: 1.3rem;
   }
 `;
 
@@ -114,7 +114,7 @@ const MainContent = styled.main`
   width: 100%;
   box-sizing: border-box;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     padding: 1rem 0;
   }
 `;
@@ -126,7 +126,7 @@ const SearchSection = styled.div`
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   margin-bottom: 2rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     padding: 1rem;
     margin-bottom: 1rem;
     margin-left: 0.5rem;
@@ -140,7 +140,7 @@ const SearchContainer = styled.div`
   display: flex;
   gap: 1rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     width: 100%;
     gap: 0.5rem;
   }
@@ -166,7 +166,7 @@ const SearchInput = styled.input`
     color: #999;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     padding: 0.75rem 1rem;
     font-size: 0.9rem;
   }
@@ -178,7 +178,7 @@ const MapWrapper = styled.div`
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     height: 400px;
   }
 `;
@@ -189,7 +189,7 @@ const StatsContainer = styled.div`
   gap: 2rem;
   margin-bottom: 2rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     gap: 0.5rem;
     margin: 0 0.5rem 1rem 0.5rem;
   }
@@ -219,7 +219,7 @@ const StatItem = styled.div`
     padding: 0 0.5rem;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     padding: 0.75rem 0.5rem;
 
     h3 {
@@ -254,7 +254,7 @@ const Footer = styled.footer`
   padding: 2rem;
   margin-top: 2rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     padding: 1rem;
     margin-top: 1rem;
   }
@@ -267,7 +267,7 @@ const FooterContent = styled.div`
   gap: 2rem;
   align-items: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     flex-direction: column;
     gap: 1rem;
     text-align: center;
@@ -280,7 +280,7 @@ const FooterLogo = styled.div`
     object-fit: contain;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     img {
       height: 60px;
     }
@@ -290,7 +290,7 @@ const FooterLogo = styled.div`
 const CompanyInfo = styled.div`
   flex: 1;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     width: 100%;
   }
 `;
@@ -301,7 +301,7 @@ const CompanyName = styled.h2`
   font-weight: 600;
   text-align: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     font-size: 1.2rem;
     margin: 0 0 0.5rem 0;
   }
@@ -328,7 +328,7 @@ const ContactInfo = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     grid-template-columns: 1fr;
     text-align: center;
 
