@@ -309,12 +309,33 @@ const CompanyName = styled.h2`
 
 const ContactInfo = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr 1.5fr 1fr;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
   gap: 1rem;
+
+  .website-email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .address {
+    text-align: center;
+  }
+
+  .phone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
 
   p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -323,6 +344,7 @@ const ContactInfo = styled.div`
   a {
     color: white;
     text-decoration: none;
+    font-size: 0.9rem;
     &:hover {
       text-decoration: underline;
     }
@@ -331,9 +353,14 @@ const ContactInfo = styled.div`
   @media (max-width: 1000px) {
     grid-template-columns: 1fr;
     text-align: center;
+    gap: 1rem;
 
-    p {
-      font-size: 0.9rem;
+    .website-email, .address, .phone {
+      align-items: center;
+    }
+
+    p, a {
+      font-size: 0.8rem;
       justify-content: center;
     }
   }
@@ -462,26 +489,25 @@ function App() {
           <CompanyInfo>
             <CompanyName>BORA TEKNİK HIRDAVAT VE İNŞAAT MALZEMELERİ SAN. TİC. LTD. ŞTİ.</CompanyName>
             <ContactInfo>
-              <p>
+              <div className="website-email">
                 <a href="https://www.borahirdavat.com" target="_blank" rel="noopener noreferrer">
                   www.borahirdavat.com
                 </a>
-              </p>
-              <p>
                 <a href="mailto:info@borahirdavat.com">
                   info@borahirdavat.com
                 </a>
-              </p>
-              <p>
-                Arapçami mah. Galata Hırdavatçılar Çarşısı No: 47
-                <br />
-                Karaköy Beyoğlu / İstanbul
-              </p>
-              <p>
-                0(212) 249 38 78
-                <br />
-                0545 149 14 79
-              </p>
+              </div>
+              <div className="address">
+                <p>
+                  Arapçami mah. Galata Hırdavatçılar Çarşısı No: 47
+                  <br />
+                  Karaköy Beyoğlu / İstanbul
+                </p>
+              </div>
+              <div className="phone">
+                <p>0(212) 249 38 78</p>
+                <p>0545 149 14 79</p>
+              </div>
             </ContactInfo>
           </CompanyInfo>
         </FooterContent>
