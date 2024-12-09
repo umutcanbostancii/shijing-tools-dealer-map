@@ -88,7 +88,9 @@ const ShijingLogo = styled.div`
   }
 
   @media (max-width: 768px) {
-    display: none;
+    img {
+      height: 40px;
+    }
   }
 `;
 
@@ -100,7 +102,7 @@ const HeaderTitle = styled.h1`
   text-align: center;
 
   @media (max-width: 768px) {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 `;
 
@@ -200,13 +202,17 @@ const StatItem = styled.div`
     color: #666;
     margin: 0;
     font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   @media (max-width: 768px) {
-    padding: 1rem;
+    padding: 0.75rem;
 
     h3 {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
+      margin: 0 0 0.25rem 0;
     }
 
     p {
