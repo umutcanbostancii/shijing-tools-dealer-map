@@ -55,25 +55,40 @@ const AppContainer = styled.div`
 
 const MainHeader = styled.header`
   background: #c00023;
-  padding: 0 2rem;
-  height: 100px;
+  padding: 0 1rem;
+  height: 80px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 768px) {
+    height: 60px;
+    padding: 0 0.5rem;
+  }
 `;
 
 const BoraLogo = styled.div`
   img {
-    height: 200px;
+    height: 80px;
     object-fit: contain;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      height: 50px;
+    }
   }
 `;
 
 const ShijingLogo = styled.div`
   img {
-    height: 90px;
+    height: 60px;
     object-fit: contain;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
   }
 `;
 
@@ -83,6 +98,10 @@ const HeaderTitle = styled.h1`
   font-weight: 600;
   margin: 0;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const MainContent = styled.main`
@@ -91,6 +110,10 @@ const MainContent = styled.main`
   max-width: 1400px;
   margin: 0 auto;
   width: 100%;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 `;
 
 const SearchSection = styled.div`
@@ -99,6 +122,11 @@ const SearchSection = styled.div`
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
 `;
 
 const SearchContainer = styled.div`
@@ -125,46 +153,65 @@ const SearchInput = styled.input`
   &::placeholder {
     color: #999;
   }
+
+  @media (max-width: 768px) {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
 `;
 
 const MapWrapper = styled.div`
-  background: white;
-  padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   height: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 
-  .leaflet-container {
-    border-radius: 8px;
-    height: 100% !important;
+  @media (max-width: 768px) {
+    height: 400px;
   }
 `;
 
 const StatsContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
   margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
 `;
 
 const StatItem = styled.div`
   background: white;
   padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
   text-align: center;
-  
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+
   h3 {
-    margin: 0;
     color: #c00023;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 0 0 0.5rem 0;
   }
-  
+
   p {
-    margin: 0.5rem 0 0;
     color: #666;
+    margin: 0;
     font-size: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+
+    h3 {
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+    }
   }
 `;
 
@@ -184,20 +231,26 @@ const PopupContent = styled.div`
 
 const Footer = styled.footer`
   background: #c00023;
-  padding: 2rem;
   color: white;
+  padding: 2rem;
   margin-top: 2rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    margin-top: 1rem;
+  }
 `;
 
 const FooterContent = styled.div`
   max-width: 1400px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
   gap: 2rem;
+  align-items: center;
 
   @media (max-width: 768px) {
     flex-direction: column;
+    gap: 1rem;
     text-align: center;
   }
 `;
@@ -207,10 +260,20 @@ const FooterLogo = styled.div`
     height: 100px;
     object-fit: contain;
   }
+
+  @media (max-width: 768px) {
+    img {
+      height: 60px;
+    }
+  }
 `;
 
 const CompanyInfo = styled.div`
   flex: 1;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const CompanyName = styled.h2`
@@ -218,6 +281,11 @@ const CompanyName = styled.h2`
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem 0;
+  }
 `;
 
 const ContactInfo = styled.div`
@@ -238,6 +306,16 @@ const ContactInfo = styled.div`
     text-decoration: none;
     &:hover {
       text-decoration: underline;
+    }
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+
+    p {
+      font-size: 0.9rem;
+      justify-content: center;
     }
   }
 `;
