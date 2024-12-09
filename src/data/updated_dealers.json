@@ -1,0 +1,651 @@
+{
+    "cities": [
+        {
+            "name": "İZMİR",
+            "latitude": 38.4237,
+            "longitude": 27.1428
+        },
+        {
+            "name": "KONYA",
+            "latitude": 37.8667,
+            "longitude": 32.8667
+        },
+        {
+            "name": "ADANA",
+            "latitude": 37.0,
+            "longitude": 35.3213
+        },
+        {
+            "name": "ORDU",
+            "latitude": 40.9833,
+            "longitude": 37.8833
+        },
+        {
+            "name": "TRABZON",
+            "latitude": 41.0082,
+            "longitude": 39.7167
+        },
+        {
+            "name": "ANKARA",
+            "latitude": 39.9334,
+            "longitude": 32.8597
+        },
+        {
+            "name": "EDİRNE",
+            "latitude": 41.6818,
+            "longitude": 26.5589
+        },
+        {
+            "name": "SAMSUN",
+            "latitude": 41.2867,
+            "longitude": 36.33
+        },
+        {
+            "name": "ANTALYA",
+            "latitude": 36.8969,
+            "longitude": 30.7133
+        },
+        {
+            "name": "ÇANAKKALE",
+            "latitude": 40.1553,
+            "longitude": 26.4142
+        },
+        {
+            "name": "TEKİRDAĞ",
+            "latitude": 40.9833,
+            "longitude": 27.5167
+        },
+        {
+            "name": "BURSA",
+            "latitude": 40.1824,
+            "longitude": 29.067
+        },
+        {
+            "name": "İSTANBUL",
+            "latitude": 41.0082,
+            "longitude": 28.9784
+        },
+        {
+            "name": "KOCAELİ",
+            "latitude": 40.7667,
+            "longitude": 29.9167
+        },
+        {
+            "name": "KARAMAN",
+            "latitude": 37.1753,
+            "longitude": 33.2287
+        },
+        {
+            "name": "BATMAN",
+            "latitude": 37.8852,
+            "longitude": 41.1376
+        },
+        {
+            "name": "SİİRT",
+            "latitude": 37.9333,
+            "longitude": 41.95
+        },
+        {
+            "name": "YALOVA",
+            "latitude": 40.65,
+            "longitude": 29.2667
+        },
+        {
+            "name": "AYDIN",
+            "latitude": 37.85,
+            "longitude": 27.85
+        },
+        {
+            "name": "AKSARAY",
+            "latitude": 38.3725,
+            "longitude": 34.0678
+        },
+        {
+            "name": "ERZİNCAN",
+            "latitude": 39.75,
+            "longitude": 40.25
+        },
+        {
+            "name": "DENİZLİ",
+            "latitude": 37.7667,
+            "longitude": 29.0917
+        },
+        {
+            "name": "UŞAK",
+            "latitude": 38.6823,
+            "longitude": 29.4082
+        },
+        {
+            "name": "AĞRI",
+            "latitude": 39.7167,
+            "longitude": 43.05
+        },
+        {
+            "name": "MALATYA",
+            "latitude": 38.3557,
+            "longitude": 38.3095
+        },
+        {
+            "name": "ZONGULDAK",
+            "latitude": 41.2861,
+            "longitude": 31.8528
+        },
+        {
+            "name": "KAYSERİ",
+            "latitude": 38.7333,
+            "longitude": 35.4833
+        },
+        {
+            "name": "BALIKESİR",
+            "latitude": 39.6484,
+            "longitude": 27.8826
+        },
+        {
+            "name": "MANİSA",
+            "latitude": 38.6191,
+            "longitude": 27.4145
+        },
+        {
+            "name": "ŞIRNAK",
+            "latitude": 37.4167,
+            "longitude": 42.45
+        },
+        {
+            "name": "MUĞLA",
+            "latitude": 37.2167,
+            "longitude": 28.3667
+        }
+    ],
+    "districts": [
+        {
+            "city": "İZMİR",
+            "district": "MENDERES",
+            "latitude": 38.3167,
+            "longitude": 27.15
+        },
+        {
+            "city": "KONYA",
+            "district": "KARATAY",
+            "latitude": 37.8667,
+            "longitude": 32.8833
+        },
+        {
+            "city": "KONYA",
+            "district": "SELÇUKLU",
+            "latitude": 37.8667,
+            "longitude": 32.8667
+        },
+        {
+            "city": "ADANA",
+            "district": "MERKEZ",
+            "latitude": 37.0,
+            "longitude": 35.3213
+        },
+        {
+            "city": "ADANA",
+            "district": "SEYHAN",
+            "latitude": 36.9914,
+            "longitude": 35.3258
+        },
+        {
+            "city": "ORDU",
+            "district": "ALTINORDU",
+            "latitude": 40.9833,
+            "longitude": 37.8833
+        },
+        {
+            "city": "TRABZON",
+            "district": "VAKFIKEBİR",
+            "latitude": 40.9553,
+            "longitude": 39.3836
+        },
+        {
+            "city": "ANKARA",
+            "district": "YENİMAHALLE",
+            "latitude": 39.9334,
+            "longitude": 32.8597
+        },
+        {
+            "city": "ANKARA",
+            "district": "ULUS",
+            "latitude": 39.9334,
+            "longitude": 32.8597
+        },
+        {
+            "city": "EDİRNE",
+            "district": "MERKEZ",
+            "latitude": 41.6818,
+            "longitude": 26.5589
+        },
+        {
+            "city": "SAMSUN",
+            "district": "CANİK",
+            "latitude": 41.2958,
+            "longitude": 36.3269
+        },
+        {
+            "city": "ANTALYA",
+            "district": "KEPEZ",
+            "latitude": 36.9128,
+            "longitude": 30.6892
+        },
+        {
+            "city": "ÇANAKKALE",
+            "district": "BİGA",
+            "latitude": 40.25,
+            "longitude": 26.9833
+        },
+        {
+            "city": "TEKİRDAĞ",
+            "district": "MERKEZ",
+            "latitude": 40.9833,
+            "longitude": 27.5167
+        },
+        {
+            "city": "TEKİRDAĞ",
+            "district": "ÇORLU",
+            "latitude": 41.1608,
+            "longitude": 27.8008
+        },
+        {
+            "city": "BURSA",
+            "district": "MERKEZ",
+            "latitude": 40.1824,
+            "longitude": 29.067
+        },
+        {
+            "city": "BURSA",
+            "district": "KESTEL",
+            "latitude": 40.2167,
+            "longitude": 29.15
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "SULTANBEYLİĞİ",
+            "latitude": 40.9085,
+            "longitude": 29.2624
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "FERHATPAŞA",
+            "latitude": 40.9167,
+            "longitude": 29.1833
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "SANCAKTEPE",
+            "latitude": 40.9628,
+            "longitude": 29.2667
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "HABİPLER",
+            "latitude": 41.0082,
+            "longitude": 28.9784
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "ÜMRANİYE",
+            "latitude": 41.0232,
+            "longitude": 29.1083
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "ATAŞEHİR",
+            "latitude": 40.9732,
+            "longitude": 29.1246
+        },
+        {
+            "city": "KOCAELİ",
+            "district": "GÖLCÜK",
+            "latitude": 40.7167,
+            "longitude": 29.8167
+        },
+        {
+            "city": "KOCAELİ",
+            "district": "BASİŞKALE",
+            "latitude": 40.7667,
+            "longitude": 29.9167
+        },
+        {
+            "city": "KARAMAN",
+            "district": "MERKEZ",
+            "latitude": 37.1753,
+            "longitude": 33.2287
+        },
+        {
+            "city": "BATMAN",
+            "district": "MERKEZ",
+            "latitude": 37.8852,
+            "longitude": 41.1376
+        },
+        {
+            "city": "YALOVA",
+            "district": "MERKEZ",
+            "latitude": 40.65,
+            "longitude": 29.2667
+        },
+        {
+            "city": "AYDIN",
+            "district": "KUŞADASI",
+            "latitude": 37.85,
+            "longitude": 27.2667
+        },
+        {
+            "city": "AKSARAY",
+            "district": "ORTAKÖY",
+            "latitude": 38.3725,
+            "longitude": 34.0678
+        },
+        {
+            "city": "MALATYA",
+            "district": "YEŞİLYURT",
+            "latitude": 38.3557,
+            "longitude": 38.3095
+        },
+        {
+            "city": "ZONGULDAK",
+            "district": "ÇAYCUMA",
+            "latitude": 41.45,
+            "longitude": 32.05
+        },
+        {
+            "city": "ZONGULDAK",
+            "district": "Z.EREĞLİ",
+            "latitude": 41.2861,
+            "longitude": 31.8528
+        },
+        {
+            "city": "MANİSA",
+            "district": "AKHİSAR",
+            "latitude": 38.9167,
+            "longitude": 27.8333
+        },
+        {
+            "city": "ŞIRNAK",
+            "district": "SİLOPİ",
+            "latitude": 37.25,
+            "longitude": 42.45
+        },
+        {
+            "city": "BURSA",
+            "district": "OSMANGAZİ",
+            "latitude": 40.1824,
+            "longitude": 29.067
+        },
+        {
+            "city": "MUĞLA",
+            "district": "MARMARİS",
+            "latitude": 36.85,
+            "longitude": 28.2667
+        }
+    ],
+    "dealers": [
+        {
+            "city": "İZMİR",
+            "district": "MENDERES",
+            "name": "GRAMER MERMER GRANİT ",
+            "latitude": 38.3167,
+            "longitude": 27.15
+        },
+        {
+            "city": "KONYA",
+            "district": "KARATAY",
+            "name": "ŞEN SAADE HIRDAVAT",
+            "latitude": 37.8667,
+            "longitude": 32.8833
+        },
+        {
+            "city": "KONYA",
+            "district": "SELÇUKLU",
+            "name": "ÖZORAK HIRDAVAT",
+            "latitude": 37.8667,
+            "longitude": 32.8667
+        },
+        {
+            "city": "KONYA",
+            "district": "KARATAY",
+            "name": "AYTEK SERAMİK",
+            "latitude": 37.8667,
+            "longitude": 32.8833
+        },
+        {
+            "city": "ADANA",
+            "district": "MERKEZ",
+            "name": "SAĞLAM KARO MERMER",
+            "latitude": 37.0,
+            "longitude": 35.3213
+        },
+        {
+            "city": "ADANA",
+            "district": "SEYHAN",
+            "name": "KIYANÇ TEKNİK",
+            "latitude": 36.9914,
+            "longitude": 35.3258
+        },
+        {
+            "city": "ORDU",
+            "district": "ALTINORDU",
+            "name": "ELZ SOMUNCUOĞLU",
+            "latitude": 40.9833,
+            "longitude": 37.8833
+        },
+        {
+            "city": "TRABZON",
+            "district": "VAKFIKEBİR",
+            "name": "GARİPLER HIRDAVAT",
+            "latitude": 40.9553,
+            "longitude": 39.3836
+        },
+        {
+            "city": "ANKARA",
+            "district": "YENİMAHALLE",
+            "name": "TAŞKENT İNŞAAT",
+            "latitude": 39.9334,
+            "longitude": 32.8597
+        },
+        {
+            "city": "ANKARA",
+            "district": "ULUS",
+            "name": "UZMAN USTA EL ALAETLERİ",
+            "latitude": 39.9334,
+            "longitude": 32.8597
+        },
+        {
+            "city": "EDİRNE",
+            "district": "MERKEZ",
+            "name": "TR SERAMİK RAMAZAN AYDIN",
+            "latitude": 41.6818,
+            "longitude": 26.5589
+        },
+        {
+            "city": "SAMSUN",
+            "district": "CANİK",
+            "name": "GÜMÜŞEVYE HIRDAVAT ",
+            "latitude": 41.2958,
+            "longitude": 36.3269
+        },
+        {
+            "city": "SAMSUN",
+            "district": "CANİK",
+            "name": "YILDIZ FABRİKA MALZEMELERİ",
+            "latitude": 41.2958,
+            "longitude": 36.3269
+        },
+        {
+            "city": "ANTALYA",
+            "district": "KEPEZ",
+            "name": "SUDE MERMER ",
+            "latitude": 36.9128,
+            "longitude": 30.6892
+        },
+        {
+            "city": "ÇANAKKALE",
+            "district": "BİGA",
+            "name": "ŞAHİN BOBİNAJ",
+            "latitude": 40.25,
+            "longitude": 26.9833
+        },
+        {
+            "city": "TEKİRDAĞ",
+            "district": "MERKEZ",
+            "name": "TURKUAZ YAPI",
+            "latitude": 40.9833,
+            "longitude": 27.5167
+        },
+        {
+            "city": "TEKİRDAĞ",
+            "district": "ÇORLU",
+            "name": "ERTEK YAPI",
+            "latitude": 41.1608,
+            "longitude": 27.8008
+        },
+        {
+            "city": "TEKİRDAĞ",
+            "district": "ÇORLU",
+            "name": "AYGÜN HIRDAVAT",
+            "latitude": 41.1608,
+            "longitude": 27.8008
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "SULTANBEYLİĞİ",
+            "name": "BESAŞ HIRDAVAT",
+            "latitude": 40.9085,
+            "longitude": 29.2624
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "FERHATPAŞA",
+            "name": "AYDINTAŞ MERMER",
+            "latitude": 40.9167,
+            "longitude": 29.1833
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "SULTANBEYLİĞİ",
+            "name": "BÖLÜNMEZ HIRDAVAT",
+            "latitude": 40.9085,
+            "longitude": 29.2624
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "SULTANBEYLİĞİ",
+            "name": "EKSEN HIRDAVAT",
+            "latitude": 40.9085,
+            "longitude": 29.2624
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "SANCAKTEPE",
+            "name": "HAN TOOLS HIRDAVAT",
+            "latitude": 40.9628,
+            "longitude": 29.2667
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "HABİPLER",
+            "name": "ALMAYA HIRDAVAT",
+            "latitude": 41.0082,
+            "longitude": 28.9784
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "ÜMRANİYE",
+            "name": "FORSETİ MAKİNA",
+            "latitude": 41.0232,
+            "longitude": 29.1083
+        },
+        {
+            "city": "İSTANBUL",
+            "district": "ATAŞEHİR",
+            "name": "FM GARANTİ YAPI MARKET",
+            "latitude": 40.9732,
+            "longitude": 29.1246
+        },
+        {
+            "city": "KOCAELİ",
+            "district": "GÖLCÜK",
+            "name": "ŞİRİNKÖY YAPI MALZ.",
+            "latitude": 40.7167,
+            "longitude": 29.8167
+        },
+        {
+            "city": "KOCAELİ",
+            "district": "BASİŞKALE",
+            "name": "BEŞ EL TARIM ÜRN.",
+            "latitude": 40.7667,
+            "longitude": 29.9167
+        },
+        {
+            "city": "KARAMAN",
+            "district": "MERKEZ",
+            "name": "NEW ART YAPI",
+            "latitude": 37.1753,
+            "longitude": 33.2287
+        },
+        {
+            "city": "BATMAN",
+            "district": "MERKEZ",
+            "name": "YILDIZ HIRDAVAT",
+            "latitude": 37.8852,
+            "longitude": 41.1376
+        },
+        {
+            "city": "YALOVA",
+            "district": "MERKEZ",
+            "name": "AKKA GRUP",
+            "latitude": 40.65,
+            "longitude": 29.2667
+        },
+        {
+            "city": "AYDIN",
+            "district": "KUŞADASI",
+            "name": "KARADELİ MAZLUMLAR",
+            "latitude": 37.85,
+            "longitude": 27.2667
+        },
+        {
+            "city": "AKSARAY",
+            "district": "ORTAKÖY",
+            "name": "ÖZGÜL İZOLASYON",
+            "latitude": 38.3725,
+            "longitude": 34.0678
+        },
+        {
+            "city": "MALATYA",
+            "district": "YEŞİLYURT",
+            "name": "AKARSULARGRUP",
+            "latitude": 38.3557,
+            "longitude": 38.3095
+        },
+        {
+            "city": "ZONGULDAK",
+            "district": "ÇAYCUMA",
+            "name": "ILGIN YAPI",
+            "latitude": 41.45,
+            "longitude": 32.05
+        },
+        {
+            "city": "ZONGULDAK",
+            "district": "Z.EREĞLİ",
+            "name": "GÜLHAN YAPI",
+            "latitude": 41.2861,
+            "longitude": 31.8528
+        },
+        {
+            "city": "MANİSA",
+            "district": "AKHİSAR",
+            "name": "TEPECİLER HIRDAVAT",
+            "latitude": 38.9167,
+            "longitude": 27.8333
+        },
+        {
+            "city": "MUĞLA",
+            "district": "MARMARİS",
+            "name": "GÜREM İNŞAAT",
+            "latitude": 36.85,
+            "longitude": 28.2667
+        }
+    ]
+}
