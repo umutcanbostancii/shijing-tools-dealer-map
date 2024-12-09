@@ -70,26 +70,26 @@ const MainHeader = styled.header`
 
 const BoraLogo = styled.div`
   img {
-    height: 80px;
+    height: 120px;
     object-fit: contain;
   }
 
   @media (max-width: 768px) {
     img {
-      height: 50px;
+      height: 70px;
     }
   }
 `;
 
 const ShijingLogo = styled.div`
   img {
-    height: 60px;
+    height: 55px;
     object-fit: contain;
   }
 
   @media (max-width: 768px) {
     img {
-      height: 40px;
+      height: 30px;
     }
   }
 `;
