@@ -52,3 +52,38 @@ code {
 .leaflet-popup-tip-container {
   filter: hue-rotate(320deg) saturate(200%) brightness(70%);
 }
+
+/* Yanıp sönen marker stilleri */
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+}
+
+.pulsing-marker {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #c00023;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 10px rgba(192, 0, 35, 0.5);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -6px;
+  margin-top: -6px;
+}
+
+.custom-div-icon {
+  background: transparent;
+  border: none;
+}

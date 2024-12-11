@@ -6,14 +6,13 @@ import 'leaflet/dist/leaflet.css';
 import dealersData from './data/updated_dealers.json';
 import { Dealer } from './types';
 
-// Leaflet ikon tanımlaması
-const customIcon = new L.Icon({
-  iconUrl: '/marker-icon.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41],
-  className: 'custom-marker'
+// Özel yanıp sönen marker ikonu
+const pulsingIcon = new L.DivIcon({
+  className: 'custom-div-icon',
+  html: '<div class="pulsing-marker"></div>',
+  iconSize: [12, 12],
+  iconAnchor: [6, 6],
+  popupAnchor: [0, -6]
 });
 
 // Türkçe karakter normalizasyonu
@@ -466,7 +465,7 @@ function App() {
               <Marker
                 key={index}
                 position={[dealer.latitude, dealer.longitude]}
-                icon={customIcon}
+                icon={pulsingIcon}
               >
                 <Popup>
                   <PopupContent>
