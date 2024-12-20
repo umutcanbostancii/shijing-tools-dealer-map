@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import styled from 'styled-components';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import dealersData from './data/updated_dealers.json';
+import dealersData from './data/updated-dealer-last.json';
 import { Dealer } from './types';
 
 // Özel yanıp sönen marker ikonu
@@ -389,7 +389,7 @@ function App() {
 
     if (cityDealers.length === 0) {
       const otherDealers = dealersData.dealers.filter(dealer => {
-        const normalizedDistrict = normalizeText(dealer.district);
+        const normalizedDistrict = dealer.district ? normalizeText(dealer.district) : '';
         const normalizedName = normalizeText(dealer.name);
         return normalizedDistrict.includes(term) || normalizedName.includes(term);
       });
@@ -400,8 +400,8 @@ function App() {
   }, [searchTerm]);
 
   const bounds: L.LatLngBoundsExpression = [
-    [35.8, 25.9],
-    [42.1, 44.6]
+    [35.5, 25.5],
+    [42.5, 45.0]
   ];
 
   return (
@@ -453,8 +453,8 @@ function App() {
             bounds={bounds}
             style={{ height: '100%', width: '100%' }}
             zoomControl={true}
-            minZoom={6}
-            maxZoom={13}
+            minZoom={5}
+            maxZoom={15}
           >
             <TileLayer
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -471,7 +471,7 @@ function App() {
                   <PopupContent>
                     <h3>{dealer.name}</h3>
                     <p>Şehir: {dealer.city}</p>
-                    <p>İlçe: {dealer.district}</p>
+                    {dealer.district && <p>İlçe: {dealer.district}</p>}
                   </PopupContent>
                 </Popup>
               </Marker>
